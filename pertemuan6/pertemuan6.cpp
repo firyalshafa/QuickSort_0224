@@ -79,6 +79,8 @@ void q_short(int low, int high)
     }
     q_short(low, j - 1); // step 12
 
+    q_short(j + 1, high); // step 13
+
 }
 
 int main()
