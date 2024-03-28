@@ -54,7 +54,10 @@ void q_short(int low, int high)
     i = low + 1; // step 3
     j = high; // step 4
 
-    while ( i <= j ) // step 10
+    while (i <= j) // step 10
+    {
+        while ( (arr[1]d+ <= pivot) && (i <= high)) // step 5
+    }
 }
 
 int main()
